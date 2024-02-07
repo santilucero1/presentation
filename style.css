@@ -1,0 +1,37 @@
+:root {
+    --darkgrey: #222831;
+    --grey:#393E46;
+    --lightblue:#00ADB5;
+    --white:#EEEEEE;
+
+}
+
+body {
+    font-family: monospace;
+    font-style: oblique;
+    background-color:var(--darkgrey);
+    margin: 0px;
+    padding: 125px;
+    }
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+    
+}
+
+.intro img {
+    height: 250px;
+    width: 250px;
+    border: solid var(--white) 2px;
+    border-radius: 50%;
+}
+
+.bio {
+    margin-left: 62.5px;
+    height: 250px;
+    width: 700px;
+}
+
+    
