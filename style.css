@@ -131,6 +131,8 @@ color: inherit; /* Usa el color del texto normal */
     flex-direction: row;
 }
 
+
+
 .opencvtittle {
     padding-top: 125px;
     padding-left: 125px;
@@ -161,9 +163,12 @@ color: inherit; /* Usa el color del texto normal */
     background-color:var(--darkgrey);
     padding: 125px;
     color: var(--white);
-    
+    text-align: center;
+ 
 }
 
+
 .icaro img {
+    height: 500px;
     border: inset var(--white) 5px;
 }
