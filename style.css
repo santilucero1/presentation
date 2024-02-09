@@ -54,11 +54,11 @@ body {
 
 .intro2 p {
     text-align-last: right;
-    color: #222831;
+    color: var(--darkgrey);
 }
 
 .odin {
-    background-color: #393E46;
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
 }
@@ -80,22 +80,22 @@ body {
 }
 
 .etch {
-    color: #EEEEEE;
+    color: var(--white);
     text-align: center;
     margin-top: 62.5px;
     height: 750px;
     padding: 62.5px;
-    background-color:#222831;
+    background-color:var(--darkgrey);
 }
     
 .calculator  {
-    background-color: #EEEEEE;
+    background-color: var(--white);
     height: 400px;
     padding: 62.5px;
 
 }
 .rpsc{
-    background-color: #393E46;
+    background-color: var(--grey);
 }
 .rps {
 
@@ -103,7 +103,7 @@ body {
 }
 
 .discordbots {
-    background-color: #EEEEEE;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     color:#222831;
@@ -119,13 +119,13 @@ body {
 .opencvtittle {
     padding: 125px;
     
-    color: #EEEEEE;
+    color: var(--white);
     padding-bottom: 0px;
 }
 
 .face , .botonera{
-    background-color: #222831;
-    color: #EEEEEE;
+    background-color: var(--darkgrey);
+    color: var(--white);
     padding: 125px;
     
 }
@@ -136,4 +136,15 @@ body {
 
 .botonera img {
     height: 200px;
+}
+
+.icaro {
+    background-color:var(--darkgrey);
+    padding: 125px;
+    color: var(--white);
+    
+}
+
+.icaro img {
+    border: inset var(--white) 5px;
 }
