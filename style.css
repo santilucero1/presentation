@@ -32,6 +32,18 @@ body {
     margin-left: 62.5px;
     height: 250px;
     width: 700px;
+    
+}
+
+.pics {
+    margin-top: 50px;
+}
+
+.pics img {
+    height: 50px;
+    width: 50px;
+    border:#00ADB5 solid 0px;
+    border-radius: 0%;
 }
 
 .intro2{
@@ -47,6 +59,20 @@ body {
 
 .odin {
     background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+}
+
+.miniicons {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.miniicons img {
+    height: 25px;
+    
 }
 
 .projects {
@@ -73,6 +99,41 @@ body {
 }
 .rps {
 
+    height: 700px;
+}
+
+.discordbots {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    color:#222831;
+    padding: 125px;
+    height: 50px;
+}
+
+.bots {
+    display: flex;
+    flex-direction: row;
+}
+
+.opencvtittle {
+    padding: 125px;
+    
+    color: #EEEEEE;
+    padding-bottom: 0px;
+}
+
+.face , .botonera{
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 125px;
+    
+}
+
+.face img {
     height: 500px;
 }
 
+.botonera img {
+    height: 200px;
+}
