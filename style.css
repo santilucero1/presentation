@@ -13,6 +13,10 @@ body {
     margin: 0px;
     }
 
+a {
+color: inherit; /* Usa el color del texto normal */
+ }
+
 .intro, .odin {
     display: flex;
     flex-direction: row;
@@ -79,15 +83,24 @@ body {
     height: 500px;
 }
 
+.ghr {
+
+    color: var(--white);
+    padding-top: 125px;
+    padding-left: 125px;
+}
+
 .etch {
     color: var(--white);
     text-align: center;
     margin-top: 62.5px;
-    height: 750px;
+    height: 800px;
     padding: 62.5px;
     background-color:var(--darkgrey);
 }
-    
+
+ 
+
 .calculator  {
     background-color: var(--white);
     height: 400px;
@@ -96,9 +109,11 @@ body {
 }
 .rpsc{
     background-color: var(--grey);
+    
 }
 .rps {
-
+    background-color: var(--darkgrey);
+    
     height: 700px;
 }
 
@@ -117,7 +132,9 @@ body {
 }
 
 .opencvtittle {
-    padding: 125px;
+    padding-top: 125px;
+    padding-left: 125px;
+
     
     color: var(--white);
     padding-bottom: 0px;
@@ -127,11 +144,13 @@ body {
     background-color: var(--darkgrey);
     color: var(--white);
     padding: 125px;
+    padding-top: 20px;
     
 }
 
 .face img {
-    height: 500px;
+    height: 400px;
+    margin-bottom: 20px;
 }
 
 .botonera img {
