@@ -1,3 +1,4 @@
-//hacer un lighter
-//algo de musica?
-//plantita sql?
+//next projects from this js 
+//lighter! 
+//music!
+//sql plant!
